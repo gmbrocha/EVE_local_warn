@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="223" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E111" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="max" />
+          <option value="min" />
+          <option value="hash" />
+          <option value="map" />
+          <option value="next" />
+          <option value="iter" />
+          <option value="sum" />
+          <option value="input" />
+          <option value="exit" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="cv2.resize" />
+          <option value="cv2.cvtColor" />
+          <option value="cv2.imread" />
+          <option value="cv2.COLOR_BGR2RGB" />
+          <option value="cv2.COLOR_RGB2GRAY" />
+          <option value="cv2.THRESH_BINARY_INV" />
+          <option value="cv2.threshold" />
+          <option value="cv2.imwrite" />
+          <option value="cv2.dilate" />
+          <option value="cv2.Canny" />
+          <option value="cv2.erode" />
+          <option value="cv2.findContours" />
+          <option value="cv2.RETR_LIST" />
+          <option value="cv2.CHAIN_APPROX_SIMPLE" />
+          <option value="cv2.contourArea" />
+          <option value="cv2.drawContours" />
+          <option value="cv2.morphologyEx" />
+          <option value="cv2.MORPH_OPEN" />
+          <option value="cv2.THRESH_BINARY" />
+          <option value="cv2.IMREAD_ANYCOLOR" />
+          <option value="cv2.destroyAllWindows" />
+          <option value="cv2.waitKey" />
+          <option value="cv2.imshow" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
